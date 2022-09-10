@@ -16,7 +16,7 @@ public class _4949 {
 			for (int j = 0; j < str.length(); j++) {
 				char c = str.charAt(j);
 				if (c == '(' || c == '[')
-					stack.push(c);
+					stack.push(c); 
 				else if (c == ')' && (stack.empty() || stack.peek() != '(')) {
 					chk = false;
 					break;
